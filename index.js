@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 app.get('/', (req, res) => {
-    console.log(req.headersss)
+    console.log(headersss)
     console.log("A GET request!")
     res.json({Hello:Math.random()})
 })
