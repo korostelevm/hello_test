@@ -4,9 +4,9 @@ app.get('/', (req, res) => {
     console.log("A GET Request !")
     
     res.json({
-        Hello:Math.random(),
+        Hello:"World",
         var: Math.random()*100,
-        asdfasf:'xxxxxx'   })
+        asdfasf:'asdfasf'   })
 })
 app.listen(process.env.PORT || 3000)
           
