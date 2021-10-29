@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.json({
         Hello:Math.random(),
         var: Math.random()*100,
-        asdfasf:'aaaa'   })
+        asdfasf:'x'   })
 })
 app.listen(process.env.PORT || 3000)
           
