@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     
     res.json({
         Hello:"[THE WHOLE] World",
-        random: (Math.random()*100).toFixed(2),
+        random: +((Math.random()*100).toFixed(2)),
         asdfasdf:'https://app.cyclic.sh/'   })
 })
 app.listen(process.env.PORT || 3000)
