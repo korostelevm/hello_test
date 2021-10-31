@@ -4,7 +4,7 @@ app.get('/', (req, res) => {
     console.log("A GET Request !")
     
     res.json({
-        Hello:"[THE WHOLE] World",
+        Hello:"Whole World",
         random: +((Math.random()*100).toFixed(2)),
         asdfasdf:'https://app.cyclic.sh/'   })
 })
